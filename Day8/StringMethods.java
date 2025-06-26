@@ -113,7 +113,9 @@ public class StringMethods {
 		
 		//ex4
 		String name = "John Keenedy";
+//		1st way
 		System.out.println(name.toLowerCase().contains("john"));
+//		2nd way
 		System.out.println(name.replace("J", "j").contains("john"));
 		
 		
